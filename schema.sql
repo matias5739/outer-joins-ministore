@@ -47,3 +47,15 @@ INSERT INTO ventas VALUES (10, 999, 205, 1, '2024-03-25');
 
 SELECT*FROM productos
 SELECT*FROM ventas;
+
+-- ══════════════════════════════════════════
+-- ── CONSULTA 1: LEFT JOIN ─────────────────
+SELECT 
+T1.nombre,
+T2.venta_id
+FROM productos AS T1
+LEFT JOIN ventas AS T2
+ON T1.producto_id=T2.producto_id;
+
+-- ── CONSULTA 2: RIGHT JOIN ────────────────
+
