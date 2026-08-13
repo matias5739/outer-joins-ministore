@@ -64,7 +64,8 @@ T2.venta_id,
 T2.producto_id
 FROM productos AS T1
 RIGHT JOIN ventas AS T2
-ON T1.producto_id=T2.producto_id;
+ON T1.producto_id=T2.producto_id
+WHERE nombre IS NULL;
 
 -- ── CONSULTA 3: FULL OUTER JOIN ───────────
 T1.nombre,
