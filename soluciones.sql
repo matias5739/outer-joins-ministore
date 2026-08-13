@@ -19,7 +19,7 @@
 -- identificando tanto productos sin ventas como ventas sin producto.
 nombre                venta_id    producto_id
 Laptop Pro 15      	      1          	101
-Laptop Pro 15	            4      	    101
+Laptop Pro 15	           4      	    101
 Mouse Inalámbrico	        2      	    102
 Mouse Inalámbrico    	    8        	  102
 Monitor 4K 27"      	    3        	  103
