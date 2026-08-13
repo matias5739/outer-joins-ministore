@@ -15,4 +15,4 @@ En las consultas anteriores, no se encontraron ventas asociadas a esos productos
 no se encontraron esos productos vendidos en el catálogo de productos
 
 4. ¿Cuándo usarías FULL OUTER JOIN en un caso real de negocio?
-FULL OUTER JOIN combina las funciones/sintaxis LEFT JOIN Y RIGHT JOIN. Se usa para ver todo, incluso:
+FULL OUTER JOIN combina las funciones/sintaxis LEFT JOIN Y RIGHT JOIN. Se usa para ver todo. Por ejemplo si un negocio quisiera ver todos las ventas de productos, incluyendo los que no fueron categorizados. Y a su vez, ver todos los productos que no tuvieron ninguna venta, y siguen en stock.
