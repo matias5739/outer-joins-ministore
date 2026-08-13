@@ -7,7 +7,7 @@
 -- Pregunta de negocio: ¿Qué productos del catálogo nunca fueron vendidos?
 -- Mostrá todos los productos y sus ventas asociadas.
 -- Los productos sin ventas aparecerán con NULL en las columnas de ventas.
--- [Tu consulta aquí]
+-- Los productos del catálogo que nunca fueron vendidos son el Hub USB-C 7p y el Parlante Bluetooth.
 -- ── CONSULTA 2: RIGHT JOIN ────────────────
 -- Pregunta de negocio: ¿Existen ventas registradas con productos
 -- que no figuran en nuestro catálogo? (posible error de carga de datos)
