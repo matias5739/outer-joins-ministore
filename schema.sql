@@ -55,7 +55,8 @@ T1.nombre,
 T2.venta_id
 FROM productos AS T1
 LEFT JOIN ventas AS T2
-ON T1.producto_id=T2.producto_id;
+ON T1.producto_id=T2.producto_id
+WHERE venta_id IS NULL;
 
 -- ── CONSULTA 2: RIGHT JOIN ────────────────
 SELECT 
