@@ -17,4 +17,16 @@
 -- Pregunta de negocio: Vista completa de auditoría que muestre
 -- todos los productos y todas las ventas sin perder ninguna fila,
 -- identificando tanto productos sin ventas como ventas sin producto.
--- [Tu consulta aquí]
+nombre                venta_id    producto_id
+Laptop Pro 15      	      1          	101
+Laptop Pro 15	            4      	    101
+Mouse Inalámbrico	        2      	    102
+Mouse Inalámbrico    	    8        	  102
+Monitor 4K 27"      	    3        	  103
+Teclado Mecánico	        5	          104
+Auriculares BT Pro	      6        	  105
+SSD Externo 1TB	          7      	    106
+Webcam HD 1080p	          9	          107
+Hub USB-C 7p	            NULL	      NULL
+Parlante Bluetooth	      NULL    	  NULL
+NULL	                    10	        999
