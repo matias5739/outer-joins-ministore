@@ -12,7 +12,7 @@
 -- Pregunta de negocio: ¿Existen ventas registradas con productos
 -- que no figuran en nuestro catálogo? (posible error de carga de datos)
 -- Los registros huérfanos aparecerán con NULL en las columnas de productos.
--- [Tu consulta aquí]
+-- Si, existen producto no categorizados en nuestro catalagos que tuvieran ventas. venta_id 10, porducto_id 999
 -- ── CONSULTA 3: FULL OUTER JOIN ───────────
 -- Pregunta de negocio: Vista completa de auditoría que muestre
 -- todos los productos y todas las ventas sin perder ninguna fila,
